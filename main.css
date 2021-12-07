@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 body
 {
     display: flex;
@@ -18,6 +17,8 @@ body
 }
 #btn-translate
 {
+    background-color:lightgrey;
+    
     display: flex;
     align-items: center;
     margin:auto;
