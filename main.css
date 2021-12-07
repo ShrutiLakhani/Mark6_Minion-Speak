@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body
+{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+}
 .container
 {
     display: flex;
@@ -5,11 +16,40 @@
     width:50vw;
 
 }
-button
+#btn-translate
 {
     display: flex;
     align-items: center;
+    margin:auto;
     justify-content: center;
-    width: 50px;
+    width: 100px;
+    padding: 0.5rem;
+    border-radius: .5rem;
     
+}
+.txt-input
+{
+width: 80%;
+height: 10vh;
+display: block;
+margin:auto;
+margin: 1rem;
+padding: 1rem 1rem 1rem 1rem;
+}    
+#output
+{
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: transparent;
+}
+.header
+{
+    text-align: center;
+}
+.center
+{
+align-items: center;
 }
